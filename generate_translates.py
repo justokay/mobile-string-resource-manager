@@ -7,7 +7,7 @@ csv_file = 'res/csv/translates.csv'
 
 def parse_csv():
     if not os.path.exists(csv_file):
-        print(f"{csv_file} doesn't exist")
+        print(f"{csv_file} don't exist")
         exit()
 
     ios = {}
